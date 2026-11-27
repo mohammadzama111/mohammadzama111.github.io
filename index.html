@@ -36,6 +36,19 @@ h2{font-size:1.1rem;margin:28px 4px 12px;font-weight:600;color:#cfd3ff}
 .pc strong:after{content:"Open \2192";font-size:.8rem;color:#a99bff;font-weight:600;background:#262b63;border-radius:999px;padding:3px 10px}
 .pc span{display:block;color:#b9bff0;font-size:.92rem;margin-top:6px}
 footer{margin-top:28px;text-align:center;color:#8d95dd;font-size:.82rem}
+.igc{background:#171b3b;border:1px solid #2e3470;border-radius:16px;padding:16px}
+.igh{display:flex;align-items:center;gap:12px}
+.igl{width:48px;height:48px;border-radius:50%;background:linear-gradient(45deg,#f9a03f,#e1306c 50%,#833ab4);display:flex;align-items:center;justify-content:center;flex:none}
+.igl svg{width:26px;height:26px}
+.igh b{display:block;font-size:1.05rem}.igh small{color:#9aa1e6}
+.igs{display:flex;gap:12px;margin:14px 0}
+.igs div{flex:1;background:#10132b;border-radius:12px;padding:10px;text-align:center}
+.igs b{display:block;font-size:1.15rem}.igs small{color:#8d95dd}
+.igc .ig{justify-content:center;box-shadow:none}
+.note{color:#8d95dd;font-size:.8rem;margin:10px 4px 0}
+.pc .art{width:100%;height:auto;border-radius:12px;display:block;margin-bottom:12px;aspect-ratio:16/9;object-fit:cover}
+.pt{display:flex;align-items:center;gap:12px}
+.ic{width:40px;height:40px;border-radius:10px;flex:none}
 </style>
 </head>
 <body>
@@ -54,14 +67,15 @@ footer{margin-top:28px;text-align:center;color:#8d95dd;font-size:.82rem}
 </div>
 <h2>Instagram</h2>
 <div class="btns">
-<a class="ig" rel="me" href="https://www.instagram.com/mohammadzama111/"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg>@mohammadzama111</a>
-<a class="ig" rel="me" href="https://www.instagram.com/official_zama_786/"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg>@official_zama_786</a>
+<div class="igc"><div class="igh"><span class="igl"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></span><div><b>@mohammadzama111</b><small>sayyed zama</small></div></div><div class="igs"><div><b>1,013</b><small>followers</small></div><div><b>296</b><small>following</small></div></div><a class="ig" rel="me" href="https://www.instagram.com/mohammadzama111/">Open Instagram</a></div>
+<div class="igc"><div class="igh"><span class="igl"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></span><div><b>@official_zama_786</b><small>Sayyed_Mohammad_Zama</small></div></div><div class="igs"><div><b>90</b><small>followers</small></div><div><b>49</b><small>following</small></div></div><a class="ig" rel="me" href="https://www.instagram.com/official_zama_786/">Open Instagram</a></div>
 </div>
+<p class="note">Counts were read from the public profiles on 27 Nov 2026 and may have changed.</p>
 <h2>My projects</h2>
 <div class="pj">
-<a class="pc" href="https://zamacity.vercel.app"><strong>Zama City</strong><span>A free 3D open-world game that you play in the browser.</span></a>
-<a class="pc" href="https://zama-assistant.vercel.app"><strong>Zama Assistant</strong><span>A personal AI assistant that chats in Roman Hindi. Login is limited to Zama's own Gmail account.</span></a>
-<a class="pc" href="https://the-spice-table-theta.vercel.app"><strong>The Spice Table</strong><span>A demo of restaurant table ordering, not a real restaurant.</span></a>
+<a class="pc" href="https://zamacity.vercel.app"><img class="art" src="https://zamacity.vercel.app/assets/ui/selectedJ-startup.webp" alt="Official Zama City game artwork" loading="lazy"><strong><span class="pt"><img class="ic" src="https://zamacity.vercel.app/icons/icon-192.png" alt="" width="40" height="40">Zama City</span></strong><span>A free 3D open-world game that you play in the browser. The picture above is the game's official title artwork.</span></a>
+<a class="pc" href="https://zama-assistant.vercel.app"><strong><span class="pt"><img class="ic" src="https://zama-assistant.vercel.app/icons/apple-touch-icon.png?v=2" alt="" width="40" height="40">Zama Assistant</span></strong><span>A personal AI assistant that chats in Roman Hindi. Login is limited to Zama's own Gmail account.</span></a>
+<a class="pc" href="https://the-spice-table-theta.vercel.app"><strong><span class="pt"><img class="ic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23f59e0b'/%3E%3Cpath d='M10 22c4-1 5-4 5-7 3 1 5 3 6 7-3 2-8 2-11 0z' fill='%23171312'/%3E%3C/svg%3E" alt="" width="40" height="40">The Spice Table</span></strong><span>A demo of restaurant table ordering, not a real restaurant.</span></a>
 </div>
 <footer>This page was made with Sayyed Mohammad Zama's permission.</footer>
 </main>
